@@ -1,0 +1,19 @@
+name: File management
+description: Guidance for organizing, transforming and scripting operations on files and projects. (Direct filesystem execution arrives with the computer-interaction phase.)
+always_on: false
+keywords:
+  - file
+  - files
+  - folder
+  - folders
+  - directory
+  - directories
+  - organize
+  - rename
+  - backup
+  - archive
+  - zip
+  - move
+  - copy
+  - cleanup
+  - disk

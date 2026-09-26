@@ -1,0 +1,34 @@
+name: Cybersecurity
+description: Cybersecurity learning and defensive-security reference capability, focused on legitimate and authorized use.
+always_on: false
+keywords:
+  - security
+  - cybersecurity
+  - vulnerability
+  - exploit
+  - malware
+  - phishing
+  - encryption
+  - cryptography
+  - firewall
+  - pentest
+  - penetration testing
+  - ctf
+  - xss
+  - sql injection
+  - csrf
+  - owasp
+  - cve
+  - authentication
+  - authorization
+  - hashing
+  - tls
+  - ssl
+  - vpn
+  - ransomware
+  - threat
+  - incident response
+  - forensics
+  - hardening
+  - nmap
+  - wireshark
