@@ -122,6 +122,14 @@ export default function ChatView({
   };
 
   const offline = !status?.reachable || !status?.model;
+  // Warn when images are attached but neither the main model reports vision
+  // capability nor a dedicated vision model is configured.
+  const noVision =
+    images.length > 0 &&
+    !!status?.reachable &&
+    !!status?.model &&
+    !status.vision_model &&
+    !status.capabilities.includes("vision");
 
   return (
     <div className="chat">
@@ -181,6 +189,13 @@ export default function ChatView({
             {status?.reachable
               ? "No model selected — choose one in Settings."
               : "Model endpoint unreachable — check Settings."}
+          </div>
+        )}
+        {noVision && (
+          <div className="banner warn">
+            {status?.model} doesn't report vision support — the image will
+            likely be ignored. Set a vision model in Settings (e.g.{" "}
+            <code>moondream</code>) to handle image turns.
           </div>
         )}
         {images.length > 0 && (
