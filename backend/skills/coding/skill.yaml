@@ -1,0 +1,38 @@
+name: Coding
+description: Specialized software-engineering capability — writing, explaining, debugging and reviewing code.
+always_on: false
+keywords:
+  - code
+  - coding
+  - program
+  - programming
+  - bug
+  - debug
+  - error
+  - exception
+  - stack trace
+  - traceback
+  - compile
+  - build
+  - function
+  - class
+  - api
+  - python
+  - javascript
+  - typescript
+  - java
+  - rust
+  - golang
+  - c++
+  - sql
+  - html
+  - css
+  - react
+  - frontend
+  - backend
+  - script
+  - refactor
+  - regex
+  - git
+  - recursion
+  - algorithm
